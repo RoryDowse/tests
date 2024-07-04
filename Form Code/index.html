@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <label for="vehicle-price">Vehicle Price or MSRP</label>
+      <input type="text" class="vehicle-price" id="vehicle-price" /> <br />
+      <label for="down-payment">Down Payment</label>
+      <input type="text" class="down-payment" id="down-payment" /><br />
+      <label for="loan-term">Loan Term</label>
+      <input type="text" class="loan-term" id="loan-term" /><br />
+      <button type="submit" id="submit-button">Submit</button>
+    </form>
+    <section>
+      <p id="monthly-payment-display"></p>
+      <p id="monthly-difference-display"></p>
+      <div id="tooltip-button-container"></div>
+      <div id="show-tips-container"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
